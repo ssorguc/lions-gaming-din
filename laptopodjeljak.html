@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="loadLaptops()">
+  <div class="nav-bar">
+    <div class="nav-bar-item">
+      <form>
+        <input id="returnbutton" type="button" value="<< Return" onclick="history.back()">
+      </form>
+    </div>
+    <div class="nav-bar-item">
+      <h1>Lions gaming</h1>
+    </div>
+    <div id="logo">
+      <a href="index.html"><img src="assets/homepagepictures/lionlogo.png" id="logo-image"></a>
+    </div>
+    <div class="nav-bar-item productchoices">
+      <a class="productchoices glowchoices">Keyboards<img src="assets/proizvodipictures/keyboardshoppic.webp"
+          class="productimages"></a>
+    </div>
+    <div class="nav-bar-item">
+      <a class="productchoices glowchoices">Mice<img src="assets/proizvodipictures/mouseshoppic.png"
+          class="productimages"></a>
+    </div>
+    <div class="nav-bar-item">
+      <img src="assets/homepagepictures/cart.png" id="cart">
+    </div>
+  </div>
+  <hr class="linesnstuff">
+  <h1 class="titles2">Laptops</h1>
+  <p class="paragraphs">Discover the world of true gaming</p>
+  <p class="paragraphslaptops">The New Z Series</p>
+
+
+  <div style="display: flex;">
+    <div style="flex: 1;"></div>
+    <div class="laptopshopoptions" id="laptops-container">
+    </div>
+    <div style="flex: 1;"></div>
+  </div>
+  <hr class="linesnstuff">
+  <div class="bottomheader">
+    <div class="headeritem">
+      <p class="smallp">Copyright 2023 Lions Group</p><br>
+      <p class="smallp">Lions gaming and all its subdivisions are owned and managed by Lions Group. Made and designed in
+        Bosnia by the basement guy.</p><br>
+      <p class="smallp">Want to contact us? Send an email to: slunkydunkysupportuwu@gmail.com</p><br>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
